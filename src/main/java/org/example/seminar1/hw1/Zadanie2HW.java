@@ -9,17 +9,17 @@ import java.util.*;
 
 public class Zadanie2HW {
     public static void main(String[] args) {
-        int[] numbers = {1, 2, 1, 2, -1, 1, 3, 1, 3, -1, 0};
+        int[] numbers = {1, 2, 1, 2, -1,-1, 1, 3, 1, 3, -1,-3,-7, 2, -4, 0};
         System.out.println("Заданный массив: " + Arrays.toString(numbers));
 
         int summa = 0;
         for (int i = 0; i < numbers.length-1; i++) {
-            if (numbers[i+1] < 0){
+            if (numbers[i] > 0 && numbers[i+1] < 0){
                 summa += numbers[i];
             }
         }
 
-        System.out.print("Сумма элементов перед элементами с отрицательным начением равна: " + summa);
+        System.out.print("Сумма положительных элементов перед элементами с отрицательным начением равна: " + summa);
 
 
     }
