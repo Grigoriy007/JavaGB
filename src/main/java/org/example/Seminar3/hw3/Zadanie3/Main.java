@@ -36,7 +36,7 @@ public class Main {
                     }
                 }
                 if (count == 2) {
-                    System.out.println(booksList.get(i).getName());;
+                    System.out.println(booksList.get(i).getName());
                 }
 
 
