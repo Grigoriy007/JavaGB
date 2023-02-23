@@ -1,4 +1,6 @@
-package org.example.Seminar3.cw3;
+package org.example.Seminar3.cw3.Zadanie1;
+
+import org.example.Seminar3.cw3.Zadanie1.Items;
 
 import java.util.ArrayList;
 import java.util.List;

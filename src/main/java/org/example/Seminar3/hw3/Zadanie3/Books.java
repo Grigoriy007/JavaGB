@@ -1,2 +1,14 @@
-package org.example.Seminar3.hw3.Zadanie3;public class Books {
+package org.example.Seminar3.hw3.Zadanie3;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+
+public class Books {
+    private String name;
+    private String author;
+    private Integer price;
+    private Integer year;
+    private Integer pages;
 }

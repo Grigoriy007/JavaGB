@@ -1,4 +1,4 @@
-package org.example.Seminar3.cw3;
+package org.example.Seminar3.cw3.Zadanie1;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
